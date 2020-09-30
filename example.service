@@ -1,0 +1,11 @@
+[Unit]
+After=multi-user.target
+
+[Service]
+WorkingDirectory=YOURWORKINGDIR
+User=YOURUSERNAME
+Type=idle
+ExecStart=/usr/bin/python3 -W ignore FULL_PATH_TO_DATAPROCESSING_SCRIPT_IN_WORKINGDIR.py > FULL_PATH_TO_LOGFILE_IN_WORKINGDIR 2>&1
+
+[Install]
+WantedBy=multi-user.target
