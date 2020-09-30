@@ -1,5 +1,8 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
+
+# Original version: https://github.com/itamaro/gcp-night-king/blob/master/zombie.sh
+
 META_URL="http://metadata.google.internal/computeMetadata/v1/instance"
 GCLOUD=gcloud
 TOPIC="prere"
