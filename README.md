@@ -1,8 +1,8 @@
-# Resurrection of GPC preemtive instances
+# Resurrection of GCP preemtive instances
 
-Automatically restart GPC preemtive instances once they are preemted.
+Automatically restart GCP preemtive instances once they are preemted.
 
-We adapted the original version to work with GPC pub/sub:
+We adapted the original version to work with GCP pub/sub:
 Original version: https://github.com/itamaro/gcp-night-king
 
 ## Overview
@@ -33,7 +33,7 @@ $ sudo systemctl enable YOUR_SERVICE.service
 
 ## 2 - Process the preemtion signal via shutdown script
 
-We assume you have a GPC preemtive instance ready to work with (not covering here how to get this up and running)
+We assume you have a GCP preemtive instance ready to work with (not covering here how to get this up and running)
 
 Adding the shutdown script is as easy as adding the code as metadata. (Either when creating the instance or click on "Edit" for the instance)
 
